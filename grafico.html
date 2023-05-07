@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario con gráfico</title>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+	<h1>Digite las ganancias de cada persona</h1>
+	<form>
+		<label for="dato1">GananciasPadre:</label>
+		<input type="number" id="Rufino" name="Rufino"><br><br>
+		<label for="dato2">GananciasMadre:</label>
+		<input type="number" id="Cibelis" name="Cibelis"><br><br>
+        <label for="dato3">GananciasHermano:</label>
+		<input type="number" id="Snayder" name="Snayder"><br><br>
+        <label for="dato4">GananciasTio</label>
+		<input type="number" id="Felo" name="Felo"><br><br>
+		<button type="button" onclick="generarGrafico()">Generar gráfico</button>
+	</form>
+	<canvas id="grafico"></canvas>
+	<script src="grafico.js"></script>
+</body>
+</html>
+
